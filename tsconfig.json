@@ -5,7 +5,9 @@
     "baseUrl": ".",
     "allowJs": true,
     "paths": {
-      "~/*": ["*"]
+      "~/*": [
+        "*"
+      ]
     }
   },
   "include": [
@@ -15,6 +17,7 @@
     "**/*.jsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.js"
+    "nativewind-env.d.js",
+    "nativewind-env.d.ts"
   ]
 }
